@@ -87,6 +87,11 @@ main {
     background-color: var(--c-orange);
 }
 
+.pesquisa__form input {
+    padding: 0px 20px;
+    font-style: italic;
+}
+
 .navegacao__lista {
     display: flex;
     list-style-type: none;
