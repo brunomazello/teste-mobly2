@@ -280,3 +280,9 @@
     cursor: pointer;
     transition: 1s;
 }
+
+.produto__banner-centro:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 1s;
+}
