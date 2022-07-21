@@ -1,0 +1,88 @@
+:root {
+    --c-navyblue: #1a253b;
+    --c-purple: #5f22a8;
+    --c-orange: #ff4600;
+    --c-black: #414141;
+    --c-seadarkblue: #007693;
+    --bg-light: #f5f9f2;
+    --bg-dark: #edece6;
+    --bg-input: #e0e7e0;
+}
+
+.app {
+    display: grid;
+    grid-template-areas:
+        'pesquisa logo menu purple'
+        'lancamento lancamento lancamento lancamento';
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+    padding: 0% 15%;
+}
+
+main {
+    background-color: var(--bg-light);
+}
+
+#pesquisa {
+    grid-area: pesquisa;
+    height: 100px;
+    height: 50px;
+    width: 200px;
+
+}
+
+#logo {
+    grid-area: logo;
+    color: var(--c-orange);
+}
+
+#menu {
+    grid-area: menu;
+}
+
+#carrinho {
+}
+
+.pesquisa__form {
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa__form input {
+    background-color: var(--bg-input);
+    border-radius: 2px;
+    border: none;
+    height: 50px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.pesquisa__form button {
+    background-color: var(--c-purple);
+    color: var(--bg-light);
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.menu__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu__lista li {
+    margin-right: 30px;
+}
+
+.carrinho__botao {
+    background-color: var(--c-purple);
+    color: var(--bg-light);
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 70px;
+    font-weight: bold;
+}
