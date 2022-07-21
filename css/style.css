@@ -82,6 +82,11 @@ main {
     margin-left: 5px;
 }
 
+.pesquisa__form button:hover {
+    cursor: pointer;
+    background-color: var(--c-orange);
+}
+
 .navegacao__lista {
     display: flex;
     list-style-type: none;
@@ -102,9 +107,15 @@ main {
     margin-right: 30px;
 }
 
+.navegacao__lista button:hover {
+    cursor: pointer;
+    color: var(--c-orange);
+}
+
 .navegacao__lista li {
     margin-right: 30px;
     text-align: center;
+
 }
 
 .navegacao__lista i {
@@ -132,6 +143,11 @@ main {
     width: 70px;
     font-weight: bold;
 
+}
+
+.carrinho__botao:hover {
+    cursor: pointer;
+    background-color: var(--c-orange);
 }
 
 .categorias__menu {
