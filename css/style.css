@@ -72,7 +72,7 @@
     grid-area: produto-centro;
 }
 
-#maisofertas {
+#mais-ofertas {
     grid-area: ofertas2;
     background-color: var(--bg-light);
 }
@@ -214,7 +214,7 @@
     color: var(--c-orange);
 }
 
-.--dropdown {
+.categorias__menu--dropdown {
     color: var(--c-black);
 }
 
@@ -287,28 +287,28 @@
     transition: 1s;
 }
 
-.produto__banner-centro img {
+.produto-centro__banner img {
     width: 100%
 }
 
-.produto__banner-centro:hover {
+.produto-centro__banner:hover {
     opacity: 0.8;
     cursor: pointer;
     transition: 1s;
 }
 
-.maisofertas__produtos {
+.mais-ofertas__produtos {
     display: flex;
     justify-content: center;
     margin-bottom: 150px;
     margin-top: 60px;
 }
 
-.maisofertas__produtos img {
+.mais-ofertas__produtos img {
     margin-right: 30px;
 }
 
-.maisofertas__produtos img:hover {
+.mais-ofertas__produtos img:hover {
     opacity: 0.5;
     transition: 1s;
     cursor: pointer;
