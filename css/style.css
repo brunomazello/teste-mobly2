@@ -14,19 +14,19 @@
     display: grid;
     grid-template-areas:
         ' pesquisa logo menu carrinho carrinho carrinho'
-        ' categorias categorias categorias categorias categorias categorias ';
+        ' categorias categorias categorias categorias categorias categorias '
+        'lancamentos lancamentos lancamentos lancamentos lancamentos lancamentos ';
 
     font-family: 'Source Sans Pro', sans-serif;
     align-items: center;
-    padding: 0% 15%;
+
 }
 
-main {
-    background-color: var(--bg-light);
-}
+main {}
 
 #pesquisa {
     grid-area: pesquisa;
+
 }
 
 #logo {
@@ -46,6 +46,17 @@ main {
 
 #categorias {
     grid-area: categorias;
+    border-top: 1px solid var(--bg-dark);
+
+}
+
+#lancamentos {
+    grid-area: lancamentos;
+    height: 500px;
+    background-image: url('../img/Destaque/lancamento-desktop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }
 
 .logo__mobly {
@@ -163,6 +174,11 @@ main {
     justify-content: space-evenly;
     display: flex;
     width: 86%;
+    list-style-type: none;
+}
+
+.categorias__menu i {
+    color: var(--c-orange);
 }
 
 .--dropdown {
@@ -171,4 +187,33 @@ main {
 
 .categorias__menu li:hover {
     color: var(--c-orange);
+}
+
+.lancamentos__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.lancamentos__container span {
+    font-size: 10rem;
+    font-weight: 600;
+
+}
+
+.lancamentos__container p {}
+
+.lancamentos__botao {
+    width: 15%;
+    background-color: var(--c-seadarkblue);
+    border: none;
+    color: var(--c-white);
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.lancamentos__botao:hover {
+    background-color: var(--c-orange);
+    cursor: pointer;
 }
