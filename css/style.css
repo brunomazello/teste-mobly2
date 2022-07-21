@@ -16,7 +16,8 @@
         ' pesquisa logo menu carrinho carrinho carrinho'
         ' categorias categorias categorias categorias categorias categorias '
         'lancamentos lancamentos lancamentos lancamentos lancamentos lancamentos '
-        ' ofertas ofertas ofertas ofertas ofertas ofertas';
+        ' ofertas ofertas ofertas ofertas ofertas ofertas'
+        ' produto-centro produto-centro produto-centro produto-centro produto-centro produto-centro';
 
     font-family: 'Source Sans Pro', sans-serif;
     align-items: center;
@@ -69,6 +70,9 @@
     grid-area: ofertas;
 }
 
+#produto-centro {
+    grid-area: produto-centro;
+}
 
 
 .logo__mobly {
