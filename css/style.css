@@ -22,9 +22,12 @@
     align-items: center;
     margin: 0 auto;
 
+
 }
 
-main {}
+.teste {
+    background-image: url('../img/Destaque/lancamento-desktop.jpg');
+}
 
 #pesquisa {
     grid-area: pesquisa;
@@ -54,9 +57,9 @@ main {}
 
 #lancamentos {
     grid-area: lancamentos;
-    height: 500px;
     background-image: url('../img/Destaque/lancamento-desktop.jpg');
     background-size: 100%;
+    height: 450px;
     background-repeat: no-repeat;
 
 }
@@ -67,9 +70,17 @@ main {}
 }
 
 
+
 .logo__mobly {
     font-size: 1.5rem;
 }
+
+.logo__mobly h1:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: var(--c-purple);
+}
+
 
 
 .pesquisa__container {
@@ -104,6 +115,8 @@ main {}
 .pesquisa__form button:hover {
     cursor: pointer;
     background-color: var(--c-orange);
+    transition: 1s;
+
 }
 
 .pesquisa__form input {
@@ -134,6 +147,8 @@ main {}
 .navegacao__lista button:hover {
     cursor: pointer;
     color: var(--c-orange);
+    transition: 1s;
+
 }
 
 .navegacao__lista li {
@@ -172,6 +187,8 @@ main {}
 .carrinho__botao:hover {
     cursor: pointer;
     background-color: var(--c-orange);
+    transition: 1s;
+
 }
 
 .categorias__menu {
@@ -195,6 +212,8 @@ main {}
 
 .categorias__menu li:hover {
     color: var(--c-orange);
+    transition: 1s;
+
 }
 
 .lancamentos__container {
@@ -227,17 +246,33 @@ main {}
 .lancamentos__botao:hover {
     background-color: var(--c-orange);
     cursor: pointer;
+    transition: 1s;
+
 }
 
 .ofertas__container {
-    background-color: var(--bg-light);
+    margin-top: -80px;
 }
 
-.ofertas__produtos{
+.ofertas__container h1 {
+    margin-left: 22%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.ofertas__produtos {
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .ofertas__produtos img {
     margin-right: 50px;
+
+}
+
+.ofertas__produtos img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 1s;
 }
