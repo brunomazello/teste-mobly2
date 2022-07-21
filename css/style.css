@@ -15,10 +15,12 @@
     grid-template-areas:
         ' pesquisa logo menu carrinho carrinho carrinho'
         ' categorias categorias categorias categorias categorias categorias '
-        'lancamentos lancamentos lancamentos lancamentos lancamentos lancamentos ';
+        'lancamentos lancamentos lancamentos lancamentos lancamentos lancamentos '
+        ' ofertas ofertas ofertas ofertas ofertas ofertas';
 
     font-family: 'Source Sans Pro', sans-serif;
     align-items: center;
+    margin: 0 auto;
 
 }
 
@@ -58,6 +60,12 @@ main {}
     background-repeat: no-repeat;
 
 }
+
+#ofertas {
+    background-color: var(--bg-light);
+    grid-area: ofertas;
+}
+
 
 .logo__mobly {
     font-size: 1.5rem;
@@ -201,7 +209,10 @@ main {}
 
 }
 
-.lancamentos__container p {}
+.lancamentos__container p {
+    font-size: 1.2rem;
+    color: var(--c-navyblue)
+}
 
 .lancamentos__botao {
     width: 15%;
@@ -216,4 +227,17 @@ main {}
 .lancamentos__botao:hover {
     background-color: var(--c-orange);
     cursor: pointer;
+}
+
+.ofertas__container {
+    background-color: var(--bg-light);
+}
+
+.ofertas__produtos{
+    display: flex;
+    justify-content: center;
+}
+
+.ofertas__produtos img {
+    margin-right: 50px;
 }
