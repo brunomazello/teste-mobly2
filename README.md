@@ -27,7 +27,7 @@ Projeto desenvolvido em HTML5 e CSS utilizando GRID com grid-template-areas, Fle
 
 - HTML5
 - CSS3
-- Metodoliga BEM
+- Metodologia BEM
 - Grid utilizando grid-template-areas
 - Flexbox
 <!-- CONTACT -->
